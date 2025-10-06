@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+
+        .container {
+            flex: 1;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.8);
+        }
+        img.logo {
+            max-width: 300px;
+            width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+        input[type="text"] {
+            padding: 10px;
+            border-radius: 6px;
+            border: none;
+            width: 70%;
+            max-width: 300px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-left: 5px;
+            border: none;
+            border-radius: 6px;
+            background: #3498db;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover { background: #2980b9; }
+        #dvContainer a { margin-top: 10px; }
+		
+		pre {
+    display: block;
+    width: 80%;           /* largura máxima (pode ajustar) */
+    max-width: 600px;     /* limite para não ficar muito largo */
+    margin: 20px auto;    /* centraliza horizontalmente */
+    padding: 15px;
+    background: rgba(0,0,0,0.3); /* fundo semitransparente opcional */
+    border-radius: 8px;
+    font-size: 16px;
+    color: white;
+    text-align: left;     /* mantém alinhado à esquerda */
+    white-space: pre-wrap; /* quebra linhas automáticas */
+}
+				
+		footer {
+            background: #151f6d;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+
+		a:link, a:visited {
+ 			color: #fff;
+ 			text-decoration: none;
+  			display: inline-block;
+		}
+
+		a:hover, a:active {
+  			color: white;
+		}
