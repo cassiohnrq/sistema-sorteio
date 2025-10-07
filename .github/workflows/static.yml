@@ -30,7 +30,7 @@ jobs:
       - name: Uploadar artefatos
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.'     # ou se seu site estiver numa subpasta build/public, defina esse caminho
+          path: '.'  # Altere se seu conteúdo estiver em outra pasta
 
       - name: Deploy to Pages
         id: deployment
