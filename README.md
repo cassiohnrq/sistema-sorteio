@@ -156,7 +156,12 @@ Caso o usuário esqueça de sair manualmente, o sistema realizará o logout auto
 
 ## 👥 Perfis de Usuário
 - **Administrador:** Acesso completo a todas as telas e funções.  
-- **Usuário Padrão:** Acesso restrito a cupons e sorteios.  
+- **Usuário Padrão:** Acesso restrito a cupons e sorteios.
+
+  
+---
+1. Clone o repositório:
+- https://github.com/cassiohnrq/sistema-sorteio.git
 
 
 
