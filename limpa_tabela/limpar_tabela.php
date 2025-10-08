@@ -1,7 +1,10 @@
 <?php
 	session_start();
-	if($_SESSION['usuarioNome'] == null){
+if($_SESSION['usuarioNome'] == null){
 	header("Location: ../login.php");}
+if($_SESSION['usuarioNiveisAcessoId'] != "1"){
+	echo 'Você não tem permissão para acessar essa pagina.';
+	header("Location: ../config/sair.php");}
 ?>
 <?php
 // index.php
