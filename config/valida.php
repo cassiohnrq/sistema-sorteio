@@ -21,7 +21,7 @@
 			if($_SESSION['usuarioNiveisAcessoId'] == "1"){
 				header("Location: ../listar/usuarios_cadastrados.php");
 			}elseif($_SESSION['usuarioNiveisAcessoId'] == "2"){
-				header("Location: ../listar/eventos_cadastrados.php");
+				header("Location: ../listar/cupons_cadastrados.php");
 			}
 		//Não foi encontrado um usuario na tabela usuário com os mesmos dados digitado no formulário
 		//redireciona o usuario para a página de login
